@@ -1,0 +1,10 @@
+octicons-vue3
+
+This package includes Vue components generated from or based on GitHub Primer
+Octicons icon path data.
+
+Octicons is copyright GitHub, Inc. and contributors, and is licensed under the
+MIT license.
+
+Project: https://primer.style/octicons
+Source: https://github.com/primer/octicons

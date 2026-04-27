@@ -1,0 +1,66 @@
+{
+  "name": "octicons-vue3",
+  "version": "1.1.5",
+  "description": "Vue 3 components for GitHub Primer Octicons.",
+  "type": "module",
+  "license": "MIT",
+  "author": "UnderHear",
+  "homepage": "https://github.com/UnderHear/octicons-vue3#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnderHear/octicons-vue3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UnderHear/octicons-vue3/issues"
+  },
+  "keywords": [
+    "octicons",
+    "github",
+    "primer",
+    "icons",
+    "vue",
+    "vue3",
+    "components"
+  ],
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "build": "vite build",
+    "prepack": "npm run typecheck && npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.5.18",
+    "vue-tsc": "^3.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
