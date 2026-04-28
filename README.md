@@ -5,7 +5,7 @@
 <h1 align="center">Octicons-Vue3</h1>
 
 <p align="center">
-This icon component library is the Vue 3 version of Octicons.<br>
+This icon component library is the Vue 3 version of <a href="https://github.com/primer/octicons">Octicons</a>.<br>
 Requires Vue 3.3 or later.
 </p>
 

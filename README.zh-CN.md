@@ -5,7 +5,7 @@
 <h1 align="center">Octicons-Vue3</h1>
 
 <p align="center">
-这是 Octicons 的 Vue 3 版本图标组件库。<br>
+这是 <a href="https://github.com/primer/octicons">Octicons</a> 的 Vue 3 版本图标组件库。<br>
 需要 Vue 3.3 或更高版本。
 </p>
 
