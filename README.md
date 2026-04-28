@@ -6,6 +6,7 @@
 
 <p align="center">
 This icon component library is the Vue 3 version of Octicons.<br>
+Requires Vue 3.3 or later.
 </p>
 
 <p align="center">

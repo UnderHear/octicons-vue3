@@ -6,6 +6,7 @@
 
 <p align="center">
 这是 Octicons 的 Vue 3 版本图标组件库。<br>
+需要 Vue 3.3 或更高版本。
 </p>
 
 <p align="center">
