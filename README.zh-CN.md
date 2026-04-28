@@ -8,6 +8,10 @@
 这是 Octicons 的 Vue 3 版本图标组件库。<br>
 </p>
 
+<p align="center">
+<a href="./README.md">English</a> | 简体中文
+</p>
+
 ## 安装
 
 ```sh

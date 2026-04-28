@@ -8,6 +8,10 @@
 This icon component library is the Vue 3 version of Octicons.<br>
 </p>
 
+<p align="center">
+English | <a href="./README.zh-CN.md">简体中文</a>
+</p>
+
 ## Install
 
 ```sh
